@@ -1,4 +1,5 @@
 const supabaseClient=window.supabase.createClient("https://jmokyjytdtqelqqjkzbe.supabase.co","eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imptb2t5anl0ZHRxZWxxcWpremJlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5ODkwODIsImV4cCI6MjA5ODU2NTA4Mn0.XtjWE3XEPGqLmVvJPJT6hBCqWJMRRHbllF6LfDF17R8");
+console.log("Supabase connected");
 const form=document.getElementById('profileForm');
 const profiles=document.getElementById('profiles');
 const search=document.getElementById('search');
